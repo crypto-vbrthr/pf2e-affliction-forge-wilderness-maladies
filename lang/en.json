@@ -1,0 +1,562 @@
+{
+  "PF2E_AFFLICTION_WM": {
+    "Module": {
+      "Title": "PF2E Affliction Forge: Wilderness Maladies",
+      "Library": "Wilderness Maladies",
+      "LibraryDescription": "Original environment-linked wilderness afflictions with broad habitat coverage and semantic Creature Forge tags.",
+      "SyncFailed": "Wilderness Maladies could not synchronize its library. See console."
+    },
+    "Content": {
+      "reed-fever": {
+        "Name": "Reed Fever",
+        "Description": "Damp reed spores lodge in the airways and mucous membranes. The fever is especially common around swamps and still water.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: Sickened 1, Fatigued."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: Sickened 2, Fatigued."
+        }
+      },
+      "dune-ant-venom": {
+        "Name": "Dune Ant Venom",
+        "Description": "The burning sting of large desert ants makes muscles tremble and joints seize.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 1d4 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 1d4 poison damage, Clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 1d6 poison damage, Clumsy 1."
+        }
+      },
+      "pine-needle-rot": {
+        "Name": "Pine Needle Rot",
+        "Description": "A fungus in rotting pine litter enters through tiny skin breaks and stiffens the limbs.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 1d6 poison damage, Clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 1d6 poison damage, Clumsy 2."
+        }
+      },
+      "saltmarsh-bite": {
+        "Name": "Saltmarsh Bite",
+        "Description": "Tiny marsh biters deliver a fast-acting neurotoxin in their saliva.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 1d4 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 1d6 poison damage, Sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 1d6 poison damage, Sickened 1, Clumsy 1."
+        }
+      },
+      "glacier-lung": {
+        "Name": "Glacier Lung",
+        "Description": "Ice-blue mold from glacier crevasses irritates the lungs and slowly drains warmth from the body.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Fatigued."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 1d6 cold damage, Fatigued."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 1d6 cold damage, Drained 1, Fatigued."
+        }
+      },
+      "sunthorn-sap": {
+        "Name": "Sunthorn Sap",
+        "Description": "The milky sap of this desert plant burns mucous membranes and causes violent nausea.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 1d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 1d6 poison damage, Sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 2d6 poison damage, Sickened 1."
+        }
+      },
+      "cave-bloom-spores": {
+        "Name": "Cave Bloom Spores",
+        "Description": "The unassuming cave bloom releases spore clouds that settle deep in the lungs.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 1d6 poison damage, Sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 2d6 poison damage, Sickened 2, Drained 1."
+        }
+      },
+      "storm-gull-fever": {
+        "Name": "Storm Gull Fever",
+        "Description": "A pathogen common among coastal birds causes chills and vomiting after contact with feathers or droppings.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Fatigued."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: Fatigued, Sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 1d6 poison damage, Fatigued, Sickened 2."
+        }
+      },
+      "ember-tick-venom": {
+        "Name": "Ember Tick Venom",
+        "Description": "Ember ticks live along the edges of lava fields; their venom carries the heat of their habitat into the bloodstream.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 1d6 poison damage, 1d4 fire damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 poison damage, 1d4 fire damage."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 2d6 poison damage, 1d6 fire damage, Clumsy 1."
+        }
+      },
+      "bog-rot": {
+        "Name": "Bog Rot",
+        "Description": "Black bog mud harbors decay organisms that inflame wounds and darken living tissue.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 1d6 void damage, Sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 2d6 void damage, Sickened 2, Drained 1."
+        }
+      },
+      "cliff-viper-venom": {
+        "Name": "Cliff Viper Venom",
+        "Description": "Cliff viper venom rapidly strips away muscular control.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 2d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 poison damage, Clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 3d6 poison damage, Clumsy 2, Slowed 1."
+        }
+      },
+      "redgrass-fever": {
+        "Name": "Redgrass Fever",
+        "Description": "During flowering season, wind carries redgrass seed hairs across the plains; some trigger a stubborn fever.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: Sickened 1, Fatigued."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 2d6 poison damage, Sickened 2, Fatigued."
+        }
+      },
+      "jungle-leech-fever": {
+        "Name": "Jungle Leech Fever",
+        "Description": "Leeches from warm jungle waters leave parasites that worsen blood loss and weakness.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Drained 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 bleed damage, Drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 2d6 bleed damage, Drained 2, Fatigued."
+        }
+      },
+      "salt-sting-toxin": {
+        "Name": "Salt-Sting Toxin",
+        "Description": "The spines of certain reef and coastal fish inject a paralyzing toxin.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 2d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 poison damage, Clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 3d6 poison damage, Clumsy 1, Slowed 1."
+        }
+      },
+      "frost-moss-blight": {
+        "Name": "Frost Moss Blight",
+        "Description": "Frost moss works through clothing and armor into the skin, drawing heat from muscle and blood.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 2d6 cold damage, Clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 cold damage, Clumsy 1, Drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 3d6 cold damage, Clumsy 2, Drained 1."
+        }
+      },
+      "thunder-bloom-pollen": {
+        "Name": "Thunder Bloom Pollen",
+        "Description": "Charged pollen from thunder blooms triggers painful electrical discharges inside the body.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 2d6 poison damage, 1d6 electricity damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 poison damage, 2d6 electricity damage, Clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 3d6 electricity damage, Clumsy 2."
+        }
+      },
+      "volcanic-ash-sickness": {
+        "Name": "Volcanic Ash Sickness",
+        "Description": "Ash saturated with primal energy clogs the airways and kindles the blood with inner heat.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 fire damage, Sickened 1, Fatigued."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 3d6 fire damage, Sickened 2, Drained 1."
+        }
+      },
+      "mangrove-scorpion-venom": {
+        "Name": "Mangrove Scorpion Venom",
+        "Description": "The dark venom of mangrove scorpions numbs limbs within a few heartbeats.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 3d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 3d6 poison damage, Clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 4d6 poison damage, Clumsy 2, Slowed 1."
+        }
+      },
+      "whiteout-curse": {
+        "Name": "Whiteout Curse",
+        "Description": "Some ancient snowstorms carry the wrath of primal spirits. Those who wander too long within them lose direction, warmth, and eventually their own will.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Dazzled, Frightened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 3d6 cold damage, Dazzled, Frightened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 4d6 cold damage, Stupefied 1, Slowed 1. Certain conditions cannot fall below their minimum value during this stage."
+        }
+      },
+      "sinkhole-miasma": {
+        "Name": "Sinkhole Miasma",
+        "Description": "A foul mist rises from deep sinkholes, choking the lungs and wasting the body.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 3d6 void damage, Sickened 1, Drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 4d6 void damage, Sickened 2, Drained 2. You cannot speak. Damage caused by this affliction cannot be healed."
+        }
+      },
+      "ironroot-sap": {
+        "Name": "Ironroot Sap",
+        "Description": "The metallic-smelling sap of ancient ironroots hardens muscles and tendons almost like wood.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 3d6 poison damage, Clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 4d6 poison damage, Clumsy 1, Slowed 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 5d6 poison damage, Clumsy 2, Slowed 1."
+        }
+      },
+      "stormscar-fever": {
+        "Name": "Stormscar Fever",
+        "Description": "Those marked by certain storm creatures carry electrical discharges through their own nervous system.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 3d6 electricity damage, Fatigued."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 4d6 electricity damage, Fatigued, Clumsy 1. Concentrate actions require a DC 5 flat check.",
+          "Gate": "Primal concentration surge"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 5d6 electricity damage, Drained 1, Clumsy 2. Concentrate actions require a DC 6 flat check.",
+          "Gate": "Primal concentration surge"
+        }
+      },
+      "razor-reef-toxin": {
+        "Name": "Razor Reef Toxin",
+        "Description": "Reef spines and camouflaged coastal hunters combine venom with deep wounds that refuse to clot.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 4d6 poison damage, 1d6 persistent bleed damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 4d6 poison damage, 2d6 persistent bleed damage, Clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 5d6 poison damage, 2d6 persistent bleed damage, Clumsy 2."
+        }
+      },
+      "black-canopy-fever": {
+        "Name": "Black Canopy Fever",
+        "Description": "Beneath dense jungle canopy thrives a black spore fungus that spreads rapidly through the blood.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 3d6 poison damage, Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 4d6 poison damage, Sickened 2, Drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 5d6 poison damage, Sickened 2, Drained 2."
+        }
+      },
+      "mirage-curse": {
+        "Name": "Mirage Curse",
+        "Description": "Primal desert magic causes reality and mirage to bleed together until even familiar thoughts become unreliable.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Dazzled, Stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 4d6 mental damage, Stupefied 1. Concentrate actions require a DC 5 flat check.",
+          "Gate": "Primal concentration surge"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 5d6 mental damage, Stupefied 2, Confused. Concentrate actions require a DC 7 flat check. Certain conditions cannot fall below their minimum value during this stage.",
+          "Gate": "Primal concentration surge"
+        }
+      },
+      "deepfrost-worm": {
+        "Name": "Deepfrost Worm",
+        "Description": "These pale parasites survive in ice caverns and frozen carcasses, feeding on body heat.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 4d6 cold damage, Drained 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 5d6 cold damage, Drained 1, Sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 6d6 cold damage, Drained 2, Sickened 2. Damage caused by this affliction cannot be healed."
+        }
+      },
+      "magma-blood-venom": {
+        "Name": "Magma-Blood Venom",
+        "Description": "The venom of volcanic reptiles and draconic beasts seems to poison and ignite the blood at once.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 5d6 poison damage, 2d6 fire damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 5d6 poison damage, 3d6 fire damage, Clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 6d6 poison damage, 4d6 fire damage, Clumsy 2, Slowed 1."
+        }
+      },
+      "elder-grove-curse": {
+        "Name": "Elder Grove Curse",
+        "Description": "A sacred grove can mark trespassers with a slow primal doom that binds mind and body to its roots.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Stupefied 1, Clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 5d6 mental damage, Stupefied 1, Clumsy 1. Damage caused by this affliction cannot be healed."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 6d6 mental damage, Stupefied 2, Slowed 1. You cannot regain Hit Points. Certain conditions cannot fall below their minimum value during this stage."
+        }
+      },
+      "bottomless-bog-plague": {
+        "Name": "Bottomless Bog Plague",
+        "Description": "In ancient bogs, decay, spores, and primal corruption form a disease that resists even magical healing.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 5d6 void damage, Sickened 1, Drained 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 6d6 void damage, Sickened 2, Drained 2."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 7d6 void damage, Sickened 2, Drained 2, Slowed 1. Damage caused by this affliction cannot be healed."
+        }
+      },
+      "skyfire-blight": {
+        "Name": "Skyfire Blight",
+        "Description": "Lightning from primal storms can leave a living scar that repeatedly drives heat and electricity through the body.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 5d6 electricity damage, 2d6 fire damage, Fatigued."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 6d6 electricity damage, 3d6 fire damage, Drained 1. Concentrate actions require a DC 6 flat check.",
+          "Gate": "Primal concentration surge"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 7d6 electricity damage, 4d6 fire damage, Drained 2, Slowed 1. Concentrate actions require a DC 8 flat check. Damage caused by this affliction cannot be healed.",
+          "Gate": "Primal concentration surge"
+        }
+      },
+      "wasteland-crown": {
+        "Name": "Wasteland Crown",
+        "Description": "Cursed wastelands crown their victims with invisible heat and drought until body and mind wither.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 5d6 fire damage, Drained 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 6d6 fire damage, Drained 2, Stupefied 1. Damage caused by this affliction cannot be healed."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 7d6 fire damage, Drained 2, Stupefied 2, Slowed 1. You cannot regain Hit Points. Certain conditions cannot fall below their minimum value during this stage."
+        }
+      },
+      "worldroot-blight": {
+        "Name": "Worldroot Blight",
+        "Description": "An ancient wilderness doom attacks its victim’s connection to life. In its final stage, the wild itself attempts to erase the victim from the cycle of life.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 6d6 void damage, Drained 1, Stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 8d6 void damage, Drained 2, Stupefied 2, Slowed 1. You cannot regain Hit Points. Certain conditions cannot fall below their minimum value during this stage."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 10d6 void damage, Drained 3, Stupefied 2, death effect. You cannot regain Hit Points. Certain conditions cannot fall below their minimum value during this stage."
+        }
+      }
+    }
+  }
+}

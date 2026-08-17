@@ -1,0 +1,562 @@
+{
+  "PF2E_AFFLICTION_WM": {
+    "Module": {
+      "Title": "PF2E Affliction Forge: Wilderness Maladies",
+      "Library": "Wildnisleiden",
+      "LibraryDescription": "Originale, umgebungsgebundene Wildnisleiden mit breiter Habitat-Abdeckung und semantischen Creature-Forge-Tags.",
+      "SyncFailed": "Wildnisleiden konnten ihre Bibliothek nicht synchronisieren. Siehe Konsole."
+    },
+    "Content": {
+      "reed-fever": {
+        "Name": "Schilffieber",
+        "Description": "Feuchte Schilfsporen setzen sich in Atemwegen und Schleimhäuten fest. Das Fieber ist an Sümpfen und stehenden Gewässern besonders verbreitet.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: Kränkelnd 1, Erschöpft."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: Kränkelnd 2, Erschöpft."
+        }
+      },
+      "dune-ant-venom": {
+        "Name": "Dünenameisengift",
+        "Description": "Der brennende Stich großer Wüstenameisen lässt Muskeln zittern und Gelenke verkrampfen.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 1d4 Gift-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 1d4 Gift-Schaden, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 1d6 Gift-Schaden, Unbeholfen 1."
+        }
+      },
+      "pine-needle-rot": {
+        "Name": "Kiefernnadelfäule",
+        "Description": "Ein Pilz in faulenden Nadelpolstern dringt über kleinste Hautverletzungen ein und versteift die Glieder.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 1d6 Gift-Schaden, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 1d6 Gift-Schaden, Unbeholfen 2."
+        }
+      },
+      "saltmarsh-bite": {
+        "Name": "Salzmarschenbiss",
+        "Description": "Winzige Marschbeißer übertragen mit ihrem Speichel ein schnell wirkendes Nervengift.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 1d4 Gift-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 1d6 Gift-Schaden, Kränkelnd 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 1d6 Gift-Schaden, Kränkelnd 1, Unbeholfen 1."
+        }
+      },
+      "glacier-lung": {
+        "Name": "Gletscherlunge",
+        "Description": "Eisblauer Schimmel aus Gletscherspalten reizt die Lunge und entzieht dem Körper langsam Wärme.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Erschöpft."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 1d6 Kälte-Schaden, Erschöpft."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 1d6 Kälte-Schaden, Ausgelaugt 1, Erschöpft."
+        }
+      },
+      "sunthorn-sap": {
+        "Name": "Sonnendornsaft",
+        "Description": "Der milchige Saft dieser Wüstenpflanze verbrennt Schleimhäute und verursacht heftige Übelkeit.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 1d6 Gift-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 1d6 Gift-Schaden, Kränkelnd 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 2d6 Gift-Schaden, Kränkelnd 1."
+        }
+      },
+      "cave-bloom-spores": {
+        "Name": "Höhlenblütensporen",
+        "Description": "Die unscheinbare Höhlenblüte stößt Sporenwolken aus, die sich tief in der Lunge ansiedeln.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 1d6 Gift-Schaden, Kränkelnd 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 2d6 Gift-Schaden, Kränkelnd 2, Ausgelaugt 1."
+        }
+      },
+      "storm-gull-fever": {
+        "Name": "Sturmmöwenfieber",
+        "Description": "Ein an Küstenvögeln verbreiteter Erreger führt nach Kontakt mit Federn oder Kot zu Schüttelfrost und Erbrechen.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Erschöpft."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: Erschöpft, Kränkelnd 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 1d6 Gift-Schaden, Erschöpft, Kränkelnd 2."
+        }
+      },
+      "ember-tick-venom": {
+        "Name": "Glutzeckengift",
+        "Description": "Glutzecken leben an den Rändern heißer Lavafelder; ihr Gift trägt die Hitze ihres Lebensraums in die Blutbahn.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 1d6 Gift-Schaden, 1d4 Feuer-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Gift-Schaden, 1d4 Feuer-Schaden."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 2d6 Gift-Schaden, 1d6 Feuer-Schaden, Unbeholfen 1."
+        }
+      },
+      "bog-rot": {
+        "Name": "Moorfäule",
+        "Description": "Schwarzer Moorschlamm enthält Fäulnisorganismen, die Wunden entzünden und lebendes Gewebe verdunkeln.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 1d6 Leere-Schaden, Kränkelnd 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 2d6 Leere-Schaden, Kränkelnd 2, Ausgelaugt 1."
+        }
+      },
+      "cliff-viper-venom": {
+        "Name": "Klippenvipergift",
+        "Description": "Das Gift der Klippenviper raubt schnell die Kontrolle über die Muskulatur.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 2d6 Gift-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Gift-Schaden, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 3d6 Gift-Schaden, Unbeholfen 2, Verlangsamt 1."
+        }
+      },
+      "redgrass-fever": {
+        "Name": "Rotgrasfieber",
+        "Description": "Zur Blütezeit trägt der Wind die feinen Samenhaare des Rotgrases über weite Ebenen; manche lösen ein hartnäckiges Fieber aus.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: Kränkelnd 1, Erschöpft."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 2d6 Gift-Schaden, Kränkelnd 2, Erschöpft."
+        }
+      },
+      "jungle-leech-fever": {
+        "Name": "Dschungel-Egelfieber",
+        "Description": "Blutegel aus warmen Dschungelgewässern hinterlassen Parasiten, die Blutverlust und Schwäche verstärken.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Ausgelaugt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Blutung-Schaden, Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 2d6 Blutung-Schaden, Ausgelaugt 2, Erschöpft."
+        }
+      },
+      "salt-sting-toxin": {
+        "Name": "Salzstacheltoxin",
+        "Description": "Die Stacheln bestimmter Riff- und Küstenfische injizieren ein lähmendes Toxin.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 2d6 Gift-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Gift-Schaden, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 3d6 Gift-Schaden, Unbeholfen 1, Verlangsamt 1."
+        }
+      },
+      "frost-moss-blight": {
+        "Name": "Frostmoosfäule",
+        "Description": "Frostmoos dringt durch Kleidung und Rüstung in die Haut und zieht Wärme aus Muskeln und Blut.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 2d6 Kälte-Schaden, Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Kälte-Schaden, Unbeholfen 1, Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 3d6 Kälte-Schaden, Unbeholfen 2, Ausgelaugt 1."
+        }
+      },
+      "thunder-bloom-pollen": {
+        "Name": "Donnerblütenpollen",
+        "Description": "Geladener Pollen von Gewitterblüten löst im Körper schmerzhafte elektrische Entladungen aus.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 2d6 Gift-Schaden, 1d6 Elektrizität-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Gift-Schaden, 2d6 Elektrizität-Schaden, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 3d6 Elektrizität-Schaden, Unbeholfen 2."
+        }
+      },
+      "volcanic-ash-sickness": {
+        "Name": "Vulkanaschekrankheit",
+        "Description": "Mit primaler Energie gesättigte Asche verklebt die Atemwege und entzündet das Blut mit innerer Hitze.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Feuer-Schaden, Kränkelnd 1, Erschöpft."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 3d6 Feuer-Schaden, Kränkelnd 2, Ausgelaugt 1."
+        }
+      },
+      "mangrove-scorpion-venom": {
+        "Name": "Mangrovenskorpiongift",
+        "Description": "Das dunkle Gift der Mangrovenskorpione lähmt Gliedmaßen in wenigen Herzschlägen.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 3d6 Gift-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 3d6 Gift-Schaden, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 4d6 Gift-Schaden, Unbeholfen 2, Verlangsamt 1."
+        }
+      },
+      "whiteout-curse": {
+        "Name": "Weißsturmfluch",
+        "Description": "Manche uralten Schneestürme tragen den Zorn primaler Geister. Wer zu lange darin wandert, verliert Orientierung, Wärme und schließlich den eigenen Willen.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Geblendet, Verängstigt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 3d6 Kälte-Schaden, Geblendet, Verängstigt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 4d6 Kälte-Schaden, Benommen 1, Verlangsamt 1. Bestimmte Zustände können während dieser Phase nicht unter ihren Mindestwert sinken."
+        }
+      },
+      "sinkhole-miasma": {
+        "Name": "Erdfallmiasma",
+        "Description": "Aus tiefen Erdfällen steigt ein fauliger Nebel auf, der die Lunge lähmt und den Körper auszehrt.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 3d6 Leere-Schaden, Kränkelnd 1, Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 4d6 Leere-Schaden, Kränkelnd 2, Ausgelaugt 2. Du kannst nicht sprechen. Von diesem Leiden verursachter Schaden kann nicht geheilt werden."
+        }
+      },
+      "ironroot-sap": {
+        "Name": "Eisenwurzelsaft",
+        "Description": "Der metallisch riechende Saft uralter Eisenwurzeln verhärtet Muskeln und Sehnen beinahe wie Holz.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 3d6 Gift-Schaden, Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 4d6 Gift-Schaden, Unbeholfen 1, Verlangsamt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 5d6 Gift-Schaden, Unbeholfen 2, Verlangsamt 1."
+        }
+      },
+      "stormscar-fever": {
+        "Name": "Sturmnarbenfieber",
+        "Description": "Wer von bestimmten Sturmwesen gezeichnet wird, trägt elektrische Entladungen im eigenen Nervensystem weiter.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 3d6 Elektrizität-Schaden, Erschöpft."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 4d6 Elektrizität-Schaden, Erschöpft, Unbeholfen 1. Konzentrieren-Handlungen erfordern einen Flat Check SG 5.",
+          "Gate": "Primaler Konzentrationssturm"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 5d6 Elektrizität-Schaden, Ausgelaugt 1, Unbeholfen 2. Konzentrieren-Handlungen erfordern einen Flat Check SG 6.",
+          "Gate": "Primaler Konzentrationssturm"
+        }
+      },
+      "razor-reef-toxin": {
+        "Name": "Messerriff-Toxin",
+        "Description": "Riffstacheln und getarnte Küstenjäger verbinden Gift mit tiefen, schlecht gerinnenden Wunden.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 4d6 Gift-Schaden, 1d6 anhaltender Blutung-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 4d6 Gift-Schaden, 2d6 anhaltender Blutung-Schaden, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 5d6 Gift-Schaden, 2d6 anhaltender Blutung-Schaden, Unbeholfen 2."
+        }
+      },
+      "black-canopy-fever": {
+        "Name": "Schwarzkronenfieber",
+        "Description": "Unter dichtem Dschungeldach gedeiht ein schwarzer Sporenpilz, der sich rasch im Blut ausbreitet.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 3d6 Gift-Schaden, Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 4d6 Gift-Schaden, Kränkelnd 2, Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 5d6 Gift-Schaden, Kränkelnd 2, Ausgelaugt 2."
+        }
+      },
+      "mirage-curse": {
+        "Name": "Fata-Morgana-Fluch",
+        "Description": "Primaler Wüstenzauber lässt Wirklichkeit und Trugbild ineinanderlaufen, bis selbst vertraute Gedanken unzuverlässig werden.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Geblendet, Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 4d6 Mental-Schaden, Benommen 1. Konzentrieren-Handlungen erfordern einen Flat Check SG 5.",
+          "Gate": "Primaler Konzentrationssturm"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 5d6 Mental-Schaden, Benommen 2, Verwirrt. Konzentrieren-Handlungen erfordern einen Flat Check SG 7. Bestimmte Zustände können während dieser Phase nicht unter ihren Mindestwert sinken.",
+          "Gate": "Primaler Konzentrationssturm"
+        }
+      },
+      "deepfrost-worm": {
+        "Name": "Tiefenfrostwurm",
+        "Description": "Diese blassen Parasiten überleben in Eisgrotten und gefrorenen Kadavern und nähren sich von Körperwärme.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 4d6 Kälte-Schaden, Ausgelaugt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 5d6 Kälte-Schaden, Ausgelaugt 1, Kränkelnd 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 6d6 Kälte-Schaden, Ausgelaugt 2, Kränkelnd 2. Von diesem Leiden verursachter Schaden kann nicht geheilt werden."
+        }
+      },
+      "magma-blood-venom": {
+        "Name": "Magmablutgift",
+        "Description": "Das Gift vulkanischer Reptilien und Drachenverwandter scheint zugleich zu vergiften und das Blut zu entzünden.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 5d6 Gift-Schaden, 2d6 Feuer-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 5d6 Gift-Schaden, 3d6 Feuer-Schaden, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 6d6 Gift-Schaden, 4d6 Feuer-Schaden, Unbeholfen 2, Verlangsamt 1."
+        }
+      },
+      "elder-grove-curse": {
+        "Name": "Fluch des Alten Hains",
+        "Description": "Ein heiliger Hain kann Eindringlinge mit einer langsamen primalen Verdammung zeichnen, die Geist und Körper an Wurzeln bindet.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Benommen 1, Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 5d6 Mental-Schaden, Benommen 1, Unbeholfen 1. Von diesem Leiden verursachter Schaden kann nicht geheilt werden."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 6d6 Mental-Schaden, Benommen 2, Verlangsamt 1. Du kannst keine Trefferpunkte zurückerlangen. Bestimmte Zustände können während dieser Phase nicht unter ihren Mindestwert sinken."
+        }
+      },
+      "bottomless-bog-plague": {
+        "Name": "Seuchenmoor",
+        "Description": "In uralten Mooren bilden Fäulnis, Sporen und primaler Verfall eine Krankheit, die selbst magische Heilung erschwert.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 5d6 Leere-Schaden, Kränkelnd 1, Ausgelaugt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 6d6 Leere-Schaden, Kränkelnd 2, Ausgelaugt 2."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 7d6 Leere-Schaden, Kränkelnd 2, Ausgelaugt 2, Verlangsamt 1. Von diesem Leiden verursachter Schaden kann nicht geheilt werden."
+        }
+      },
+      "skyfire-blight": {
+        "Name": "Himmelsbrandfäule",
+        "Description": "Blitze primaler Stürme können eine lebende Narbe hinterlassen, die Hitze und Elektrizität immer wieder durch den Körper jagt.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 5d6 Elektrizität-Schaden, 2d6 Feuer-Schaden, Erschöpft."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 6d6 Elektrizität-Schaden, 3d6 Feuer-Schaden, Ausgelaugt 1. Konzentrieren-Handlungen erfordern einen Flat Check SG 6.",
+          "Gate": "Primaler Konzentrationssturm"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 7d6 Elektrizität-Schaden, 4d6 Feuer-Schaden, Ausgelaugt 2, Verlangsamt 1. Konzentrieren-Handlungen erfordern einen Flat Check SG 8. Von diesem Leiden verursachter Schaden kann nicht geheilt werden.",
+          "Gate": "Primaler Konzentrationssturm"
+        }
+      },
+      "wasteland-crown": {
+        "Name": "Krone der Ödnis",
+        "Description": "Verfluchte Ödlande krönen ihre Opfer mit unsichtbarer Hitze und Trockenheit, bis Körper und Geist verdorren.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 5d6 Feuer-Schaden, Ausgelaugt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 6d6 Feuer-Schaden, Ausgelaugt 2, Benommen 1. Von diesem Leiden verursachter Schaden kann nicht geheilt werden."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 7d6 Feuer-Schaden, Ausgelaugt 2, Benommen 2, Verlangsamt 1. Du kannst keine Trefferpunkte zurückerlangen. Bestimmte Zustände können während dieser Phase nicht unter ihren Mindestwert sinken."
+        }
+      },
+      "worldroot-blight": {
+        "Name": "Weltenwurzelfäule",
+        "Description": "Eine uralte Verdammung der Wildnis greift die Lebensverbindung ihres Opfers an. In der letzten Phase versucht die Wildnis selbst, es aus dem Kreislauf des Lebens zu tilgen.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 6d6 Leere-Schaden, Ausgelaugt 1, Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 8d6 Leere-Schaden, Ausgelaugt 2, Benommen 2, Verlangsamt 1. Du kannst keine Trefferpunkte zurückerlangen. Bestimmte Zustände können während dieser Phase nicht unter ihren Mindestwert sinken."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 10d6 Leere-Schaden, Ausgelaugt 3, Benommen 2, Todeseffekt. Du kannst keine Trefferpunkte zurückerlangen. Bestimmte Zustände können während dieser Phase nicht unter ihren Mindestwert sinken."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "pf2e-affliction-forge-wilderness-maladies",
+  "title": "PF2E Affliction Forge: Wilderness Maladies",
+  "description": "An original bilingual wilderness affliction library for PF2E Affliction Forge. Includes 32 staged diseases, poisons, and primal curses with standardized semantic tags and broad habitat coverage for Creature Forge matching.",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "crypto-vbrthr"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "8.1.2"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "pf2e-affliction-forge",
+        "type": "module",
+        "compatibility": {
+          "minimum": "0.1.63"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "languages": [
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "license": "LICENSE",
+  "readme": "README.md"
+}
